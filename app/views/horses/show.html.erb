@@ -1,0 +1,22 @@
+<div class="centered">
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @horse.name %>
+</p>
+
+<p>
+  <strong>Can escape:</strong>
+  <%= @horse.can_escape %>
+</p>
+
+<p>
+  <strong>Breed:</strong>
+  <%= @horse.breed %>
+</p>
+
+<%= link_to 'Edit', edit_horse_path(@horse) %> |
+<%= link_to 'Back', horses_path %>
+</div>
